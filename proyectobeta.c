@@ -29,10 +29,32 @@ int main(){
         printf("x1= %.2lf\n", x3);
     }
     else {
-        printf("Discriminante < 0 --> sin solucuiones reales\n");
+        printf("Discriminante < 0 --> sin soluciones reales\n");
     }
+
     printf("Para saber el corte de la funcion con el eje Y (eje vertical) tenemos que: \n");
     printf("El corte del eje Y seria (0,c), dejando como valor fijo x = 0, en este caso el corte seria (0,%d) \n", c);
+
+    float vrtx, vrty;
+    int det2;
+    det2 = (b*b)-(4*a*c);
+    vrtx = (-b/(2*a));
+    vrty = -det2/(4*a);
+    
+    printf("El vertice se encuentra en %.1f ,%.1f \n", vrtx,vrty);
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
     
     
     return 0;
