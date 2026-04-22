@@ -29,6 +29,6 @@ El programa ya permite obtener los siguientes elementos clave:
 ## Avance
 Actualmente hemos logrado la obtención de la función a analizar y sus componentes basicos.
 
-##Proximos pasos 
+## Proximos pasos 
     * Implementar interfaz gráfica interactiva para el usuario.
     * Mejora en las explicaciones pedagógicas de los resultados.
