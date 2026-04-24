@@ -24,7 +24,7 @@ Determinación del eje de simetría.
 Nicolás Cabezas ->   
 Nicolás Currimán ->  
 Francisca Koweil ->   
-Fernanda Urra -> 
+Fernanda Urra ->   
 Avance
 Actualmente, hemos logrado la obtención de la función a analizar y sus componentes básicos.
 
