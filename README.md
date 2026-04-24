@@ -21,7 +21,10 @@ Cálculo del vértice.
 Determinación del eje de simetría.  
 
 ## Equipo de trabajo
-Desarrollo e implementación, documentación y estructura, pruebas y validación.
+Nicolás Cabezas ->   
+Nicolás Currimán ->  
+Francisca Koweil -> 
+Fernanda Urra -> 
 Avance
 Actualmente, hemos logrado la obtención de la función a analizar y sus componentes básicos.
 
