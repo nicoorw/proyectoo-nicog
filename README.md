@@ -23,7 +23,7 @@ Determinación del eje de simetría.
 ## Equipo de trabajo
 Nicolás Cabezas ->   
 Nicolás Currimán ->  
-Francisca Koweil -> 
+Francisca Koweil ->   
 Fernanda Urra -> 
 Avance
 Actualmente, hemos logrado la obtención de la función a analizar y sus componentes básicos.
