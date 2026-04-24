@@ -19,7 +19,6 @@ Cálculos matemáticos:
 Obtención de las raíces.  
 Cálculo del vértice.  
 Determinación del eje de simetría.  
-Cambios principales: uso de minúsculas en títulos internos, “más” acentuado antes, y “3” → “tres” para mantener formalidad. 
 
 ## Equipo de trabajo
 Desarrollo e implementación, documentación y estructura, pruebas y validación.
