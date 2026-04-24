@@ -13,7 +13,8 @@ Determinar el comportamiento de la función interpretando sus valores.
 Representar de manera estructurada los elementos que describen la función, para apoyar el aprendizaje interactivo.
 
 ## Funcionalidades implementadas (Hito 1)
-El programa ya permite obtener los siguientes elementos clave:  
+El programa ya permite obtener los siguientes elementos clave:    
+Obtención de la función a analizar y sus componentes básicos.
 Análisis del discriminante: estudio de los tres casos posibles del discriminante.  
 Cálculos matemáticos:  
 Obtención de las raíces.  
@@ -25,8 +26,6 @@ Nicolás Cabezas ->
 Nicolás Currimán ->  
 Francisca Koweil ->   
 Fernanda Urra ->   
-Avance
-Actualmente, hemos logrado la obtención de la función a analizar y sus componentes básicos.
 
 ## Próximos pasos
 Implementar una interfaz gráfica interactiva para el usuario.  
