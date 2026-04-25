@@ -22,9 +22,9 @@ Cálculo del vértice.
 Determinación del eje de simetría.  
 
 ## Equipo de trabajo
-Nicolás Cabezas ->  Desarrollador.
-Nicolás Currimán ->  Revisión y casos de prueba.
-Francisca Koweil -> Investigacion pedagógica.
+Nicolás Cabezas ->  Desarrollador.  
+Nicolás Currimán ->  Revisión y casos de prueba.  
+Francisca Koweil -> Investigacion pedagógica.  
 Fernanda Urra -> Documentación.
 
 ## Próximos pasos
