@@ -22,11 +22,12 @@ Cálculo del vértice.
 Determinación del eje de simetría.  
 
 ## Equipo de trabajo
-Nicolás Cabezas ->   
-Nicolás Currimán ->  
-Francisca Koweil ->   
-Fernanda Urra ->   
+Nicolás Cabezas ->  Desarrollador.
+Nicolás Currimán ->  Revisión y casos de prueba.
+Francisca Koweil -> Investigacion pedagógica.
+Fernanda Urra -> Documentación.
 
 ## Próximos pasos
-Implementar una interfaz gráfica interactiva para el usuario.  
+Implementar una interfaz gráfica interactiva para el usuario.   
+Implementar más datos que se extraen de la ecuación de la función cuadrática.  
 Mejorar las explicaciones pedagógicas de los resultados.
