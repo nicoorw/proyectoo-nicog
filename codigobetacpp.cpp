@@ -1,10 +1,11 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
+#include <iomanip>
 using namespace std;
 
 int main(){
-    float a, b, c, discriminante;
+    float a, b, c, discriminante, x1, x2, x3;
     cout << "La funcion cuadratica esta compuesta de forma tal que ax² + bx + c .\n" << endl;
     cout << "Ingresa el valor de a (recuerda que es el valor que acompaña al x²)" << endl;
     cin >> a;
@@ -31,8 +32,23 @@ int main(){
     else if ( c > 0 ){
         cout << "La funcion a trabajar seria " << a << "x² " << b << "x +" << c << endl;
     }
-    discriminante = (b*b)-(4*a*c);
-    cout << "\n EL RESULTADO DEL DISCRIMINANTE ES\n" << endl;
-    cout << "El discriminante(Δ) es :" << discriminante << endl;
-    return 0;
+    discriminante = (b*b)-(4.0*a*c);
+    cout << "\n -EL RESULTADO DEL DISCRIMINANTE ES-\n" << endl;
+    cout << "El discriminante(Δ) es :\n" << discriminante << endl;
+    if (discriminante > 0){
+        x1 = (-b + sqrt(discriminante)) /(2.0*a);
+        x2 = (-b - sqrt(discriminante)) /(2.0*a);
+        cout << "Discriminante > 0, existen 2 soluciones reales" << endl;
+        cout << "\n -LOS PUNTOS DE INTERSECCION DEL EJE X SON-\n" << endl;
+        cout << fixed << setprecision(2);
+        cout << "Los resultados son: x1= " << x1 << ", x2= " << x2 << endl;
+    }
+    else if( discriminante == 0){
+        x3 = (-b)/(2.0*a);
+        cout << "Discriminante = 0, existe 1 solucion real" << endl;
+        cout << "\n -EL PUNTO DE INTERSECCION CON EJE X ES-\n" << endl;
+        cout << fixed << setprecision(2);
+        cout << "El resultado es: x1= " << x3 << endl;
+    }
+    return 0;     
 }
