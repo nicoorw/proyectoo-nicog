@@ -34,7 +34,7 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 
 ## Compilación y Ejecución   
 
-g++ main.cpp funciones.cpp -o proyecto -lm
+g++ main.cpp funciones.cpp -o proyecto -lm  
 ./proyecto
 ---
 ## Avance logrado (Hito 1)
