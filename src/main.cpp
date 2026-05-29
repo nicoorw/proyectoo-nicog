@@ -1,19 +1,15 @@
-#include <iostream>
-#include <string>
 #include "funciones.h"
 
 int main(){
-    float a, b, c;
     int opcion;
+    float a, b, c;
 
-    // Explica la funcion cuadratica y pide los coeficientes al usuario
     ExplicarFuncionCuadratica();
     PedirCoeficientes(a, b, c);
+    Calculadora calculo(a, b, c);
 
-    // Se calcula el discriminante inicial para usarlo en el vertice
     float dis = (b*b)-(4.0*a*c);
 
-    // Menu principal con todas las funcionalidades disponibles
     do {
         std::cout << "\n---MENU---\n";
         std::cout << "1. Calcular discriminante y raices\n";
@@ -26,16 +22,15 @@ int main(){
         std::cin >> opcion;
 
         if (opcion == 1) {
-            // Se actualiza el discriminante por si el usuario ingreso nueva funcion
-            dis = CalculoDiscriminante(a, b, c);
+            dis = calculo.CalculoDiscriminante();
         } else if (opcion == 2) {
-            CalculoVertice(a, b, dis);
+            calculo.CalculoVertice(dis);
         } else if (opcion == 3) {
-            CorteEjeY(c);
+            calculo.CorteEjeY();
         } else if (opcion == 4) {
-            MostrarTabla(a, b, c);
+            calculo.MostrarTabla();
         } else if (opcion == 5) {
-            GraficarConsola(a, b, c);
+            calculo.GraficarConsola();
         } else if (opcion == 6) {
             std::cout << "Hasta luego!\n";
         } else {
