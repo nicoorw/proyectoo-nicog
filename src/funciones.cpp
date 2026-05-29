@@ -1,10 +1,21 @@
-#include <iostream>
-#include <cmath>
-#include <iomanip>
-#include <fstream>
-#include <cstdlib>
-#include <string>
 #include "funciones.h"
+
+Funcion::Funcion(float a, float b, float c) {
+    this->a = a;
+    this->b = b;
+    this->c = c;
+}
+float Funcion::A() {
+    return a;
+}
+float Funcion::B() {
+    return b;
+}
+float Funcion::C() {
+    return c;
+}
+Calculadora::Calculadora(float a, float b, float c): parabola(a,b,c){
+}
 
 // Explica al usuario en que consiste una funcion cuadratica antes de comenzar
 void ExplicarFuncionCuadratica(){
@@ -60,9 +71,12 @@ void PedirCoeficientes(float &a, float &b, float &c){
 // Calcula el discriminante de la funcion cuadratica
 // Segun su valor determina si hay 2, 1 o 0 soluciones reales
 // Retorna el discriminante para usarlo en otras funciones
-float CalculoDiscriminante (float a, float b, float c){
+float Calculadora::CalculoDiscriminante (){
     float discriminante, x1, x2, x3;
     // Formula del discriminante: b^2 - 4ac
+    float a= parabola.A();
+    float b= parabola.B();  
+    float c= parabola.C();
     discriminante = (b*b)-(4.0*a*c);
     std::cout << "\n===============================\n" << std::endl;
     std::cout << "\n -RESULTADO DEL DISCRIMINANTE- \n" << std::endl;
@@ -95,7 +109,9 @@ float CalculoDiscriminante (float a, float b, float c){
 // Calcula el vertice de la parabola usando las formulas:
 // vrtx = -b / (2a)
 // vrty = -discriminante / (4a)
-void CalculoVertice(float a, float b, float dis){
+void Calculadora::CalculoVertice(float dis){
+    float a= parabola.A();
+    float b= parabola.B();
     float vrtx, vrty;
     vrtx = (-b/(2*a));
     vrty = -dis/(4*a);
@@ -106,7 +122,8 @@ void CalculoVertice(float a, float b, float dis){
 
 // Muestra el punto donde la funcion corta el eje Y
 // El corte en Y siempre es (0, c) porque cuando x=0, f(0) = c
-void CorteEjeY(float c){
+void Calculadora::CorteEjeY(){
+    float c= parabola.C();
     int expl;
     std::cout << "\n---CORTE DE LA FUNCION EN EJE Y---\n";
     std::cout << "El corte del eje Y es: (0," << c << ")\n";
@@ -121,7 +138,10 @@ void CorteEjeY(float c){
 }
 
 // Muestra una tabla con los valores de f(x) para x entre -5 y 5
-void MostrarTabla(float a, float b, float c){
+void Calculadora::MostrarTabla(){
+    float a= parabola.A();
+    float b= parabola.B();
+    float c= parabola.C();
     std::cout << "\n---TABLA DE VALORES---\n";
     std::cout << std::setw(10) << "x" << std::setw(15) << "f(x)" << std::endl;
     std::cout << "------------------------------\n";
@@ -135,7 +155,10 @@ void MostrarTabla(float a, float b, float c){
 
 // Genera una representacion grafica aproximada de la funcion en consola
 // Usa asteriscos para mostrar la posicion de f(x) en cada fila
-void GraficarConsola(float a, float b, float c){
+void Calculadora::GraficarConsola(){
+    float a= parabola.A();
+    float b= parabola.B();
+    float c= parabola.C();
     std::cout << "\n---GRAFICA EN CONSOLA---\n";
     // Primero calcula el maximo y minimo para escalar el grafico
     float maxVal = a*((-5)*(-5)) + b*(-5) + c;
