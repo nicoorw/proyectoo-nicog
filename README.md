@@ -32,5 +32,15 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 * **Vértice:** Punto del vértice.
 * **Eje de simetría**.
 
+### Avance Hito 2  
+* **Cambio de C a C++**
+* 
+
 ## Próximos pasos
 * Avance hacia el **Hito 2**.
+* - La implementación de la interfaz gráfica con fines pedagógicos.
+  - Expandir el análisis matemático de la función.
+  - Profundizaremos en el carácter pedagógico.
+ 
+* Avance hacia el **Hito 3**.
+* - Implementacion de grafica de función interactiva con Qt.
