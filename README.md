@@ -23,8 +23,11 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 
 ---
 
-## Funcionalidades implementadas y pruebas
-### Avance logrado (Hito 1)
+## Funcionalidades implementadas  
+
+## Casos de Prueba  
+
+## Avance logrado (Hito 1)
 * **Concavidad:** Análisis de la orientación.
 * **Obtención de la función:** Procesamiento de datos de entrada.
 * **Discriminante:** Análisis de sus 3 casos.
@@ -32,7 +35,7 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 * **Vértice:** Punto del vértice.
 * **Eje de simetría**.
 
-### Avance Hito 2  
+## Avance Hito 2  
 * **Cambio de C a C++**
 * 
 
@@ -44,3 +47,8 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
  
 * Avance hacia el **Hito 3**.
 * - Implementacion de grafica de función interactiva con Qt.
+
+## Compilación y Ejecución
+
+## Referencias  
+- 
