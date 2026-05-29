@@ -16,10 +16,10 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 ---
 
 ## Roles de cada integrante 
-* **Nicolas**
-* **Nicolas**
-* **Fransisca**
-* **Fernanda**
+* **Nicolás Currimán->** Desarrollo principal.
+* **Nicolás Cabezas->** Pruebas y organización del proyecto.
+* **Francisca Koweil->** Lógica matemática y Validación Pedagógica.
+* **Fernanda Urra->** Documentación y Estructura.
 
 ---
 
