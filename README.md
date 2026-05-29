@@ -27,6 +27,13 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 
 ## Casos de Prueba  
 
+## Cambios estructurales de C a C++
+
+## Clases implementadas  
+
+
+## Compilación y Ejecución
+---
 ## Avance logrado (Hito 1)
 * **Concavidad:** Análisis de la orientación.
 * **Obtención de la función:** Procesamiento de datos de entrada.
@@ -37,7 +44,8 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 
 ## Avance Hito 2  
 * **Cambio de C a C++**
-* 
+
+
 
 ## Próximos pasos
 * Avance hacia el **Hito 2**.
@@ -47,8 +55,6 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
  
 * Avance hacia el **Hito 3**.
 * - Implementacion de grafica de función interactiva con Qt.
-
-## Compilación y Ejecución
 
 ## Referencias  
 - 
