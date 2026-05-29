@@ -4,11 +4,11 @@
 
 | Herramienta | Uso |
 |---|---|
-| [ej: ChatGPT / Claude] | [ej: apoyo en debugging, generación de comentarios] |
+| Claude | Identificar, localizar y solucionar errores en el código. |  
+| Gemini | Explicaciones matematicas. |  
 
-## Prompts Utilizados
-
-> Describir aquí los prompts que usaron. Ejemplo:
+## Prompts Claude  
+## Prompts Gemini
 > - "Cómo calcular el vértice de una parábola en C"
 > - "Por qué mi cálculo de sqrt da error de compilación en C"
 
