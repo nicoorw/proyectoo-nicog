@@ -32,7 +32,8 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 ## Clases implementadas  
 
 
-## Compilación y Ejecución  
+## Compilación y Ejecución   
+
 g++ main.cpp funciones.cpp -o proyecto -lm
 ./proyecto
 ---
