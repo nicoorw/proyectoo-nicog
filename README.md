@@ -22,20 +22,39 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 ---
 
 ## Funcionalidades implementadas  
-**1.** ExplicarFuncionCuadratica
 
+**PedirCoeficientes:** Se encarga de obtener los coeficientes y se asegura de que tenga valores validos.
+**ExplicarFuncionCuadratica:** Imprime un mensaje de bienvenida y explica la forma general.  
 
-## Casos de Prueba  
+## Clases implementadas
+
+**Funcion:**Guarda y expone los coeficientes.
+- Su constructor ayuda a asignar los coeficientes a atributos privados.
+- A(), B(), C() nos ayuda a acceder a los datos.
+
+**Calculadora:** Obtiene los coeficientes a traves de una composicion con Funcion y con estos construye el objeto parabola que trabaja con los demas metodos.
+- Su constructor inicializa parabola.
+- CalculoDiscriminante() entrega el discriminante, da cantidad de soluciones y si estas son reales o no.
+- CalculoVertice(float dis) imprime las coordenadas del vertice.
+- CorteEjeY() imprime el punto donde la parabola cruza con el eje y.
+- MostrarTabla() calcula f(x) en un intervalo de -5 a 5.
+- GraficarConsola() representa la parabola en la consola.
 
 ## Cambios estructurales de C a C++
-
-## Clases implementadas  
+- Paso de funciones a métodos.
+- Manejo de objetos, sus datos (atributos) y comportamientos (métodos).
 
 
 ## Compilación y Ejecución   
-
 g++ main.cpp funciones.cpp -o proyecto -lm  
 ./proyecto
+
+## Casos de Prueba  
+
+## Principales dificultades  
+- Desarrollar una composicion.
+- Graficar una parabola en consola.
+
 ---
 ## Avance logrado (Hito 1)
 * **Concavidad:** Análisis de la orientación.
@@ -47,8 +66,7 @@ g++ main.cpp funciones.cpp -o proyecto -lm
 
 ## Avance Hito 2  
 * **Cambio de C a C++**
-
-
+* ** **
 
 ## Próximos pasos
 * Avance hacia el **Hito 2**.
@@ -57,7 +75,7 @@ g++ main.cpp funciones.cpp -o proyecto -lm
   - Profundizaremos en el carácter pedagógico.
  
 * Avance hacia el **Hito 3**.
-* - Implementacion de grafica de función interactiva con Qt.
+  - Implementacion de grafica de función interactiva con Qt.
 
 ## Referencias  
-- 
+- https://www.mathsisfun.com/algebra/quadratic-equation.html
