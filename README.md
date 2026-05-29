@@ -1,4 +1,4 @@
-# 📐 Analizador Pedagógico de Funciones Cuadráticas
+# Analizador Pedagógico de Funciones Cuadráticas
 
 # Resumen de la problemática a solucionar
 La función cuadrática es una de las funciones que mas se malentiende ya que solo se enseña a través de formulas, pero nunca el que representan estas o como se obtienen, se memoriza, pero no se entiende.
