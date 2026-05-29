@@ -13,8 +13,6 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 * Representar de manera clara y estructurada los distintos elementos que describen una función cuadrática.
 * Apoyar el aprendizaje de funciones cuadráticas mediante el uso de una herramienta computacional interactiva.
 
----
-
 ## Roles de cada integrante 
 * **Nicolás Currimán->** Desarrollo principal.
 * **Nicolás Cabezas->** Pruebas y organización del proyecto.
@@ -24,6 +22,8 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 ---
 
 ## Funcionalidades implementadas  
+**1.** ExplicarFuncionCuadratica
+
 
 ## Casos de Prueba  
 
@@ -33,6 +33,8 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 
 
 ## Compilación y Ejecución
+g++ main.cpp funciones.cpp -o proyecto -lm
+./proyecto
 ---
 ## Avance logrado (Hito 1)
 * **Concavidad:** Análisis de la orientación.
@@ -49,7 +51,7 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 
 ## Próximos pasos
 * Avance hacia el **Hito 2**.
-* - La implementación de la interfaz gráfica con fines pedagógicos.
+  - La implementación de la interfaz gráfica con fines pedagógicos.
   - Expandir el análisis matemático de la función.
   - Profundizaremos en el carácter pedagógico.
  
