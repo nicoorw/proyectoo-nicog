@@ -1,10 +1,10 @@
 # Analizador Pedagógico de Funciones Cuadráticas
 
 # Resumen de la problemática a solucionar
-La función cuadrática es una de las funciones que mas se malentiende ya que solo se enseña a través de formulas, pero nunca el que representan estas o como se obtienen, se memoriza, pero no se entiende.
+La función cuadrática es una de las funciones que más se malentiende ya que solo se enseña a través de fórmulas, pero nunca lo que representan estas o cómo se obtienen, se memoriza, pero no se entiende.
 
 ## Objetivo general del proyecto
-Desarrollar una herramienta computacional educativa que, entregue el análisis completo de una función cuadrática de manera clara, ordenada y pedagógica.
+Desarrollar una herramienta computacional educativa que entregue el análisis completo de una función cuadrática de manera clara, ordenada y pedagógica.
 
 ## Objetivos específicos
 * Analizar funciones cuadráticas a partir del ingreso de sus coeficientes desde la consola.
@@ -23,7 +23,7 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 
 ## Funcionalidades implementadas  
 
-**PedirCoeficientes:** Se encarga de obtener los coeficientes y se asegura de que tenga valores validos.
+**PedirCoeficientes:** Se encarga de obtener los coeficientes y se asegura de que tenga valores válidos.
 **ExplicarFuncionCuadratica:** Imprime un mensaje de bienvenida y explica la forma general.  
 
 ## Clases implementadas
@@ -32,13 +32,13 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 - Su constructor ayuda a asignar los coeficientes a atributos privados.
 - A(), B(), C() nos ayuda a acceder a los datos.
 
-**Calculadora:** Obtiene los coeficientes a traves de una composicion con Funcion y con estos construye el objeto parabola que trabaja con los demas metodos.
-- Su constructor inicializa parabola.
+**Calculadora:** Obtiene los coeficientes a través de una composición con Funcion y con estos construye el objeto parábola que trabaja con los demás métodos.
+- Su constructor inicializa parábola.
 - CalculoDiscriminante() entrega el discriminante, da cantidad de soluciones y si estas son reales o no.
-- CalculoVertice(float dis) imprime las coordenadas del vertice.
-- CorteEjeY() imprime el punto donde la parabola cruza con el eje y.
+- CalculoVertice(float dis) imprime las coordenadas del vértice.
+- CorteEjeY() imprime el punto donde la parábola cruza con el eje Y.
 - MostrarTabla() calcula f(x) en un intervalo de -5 a 5.
-- GraficarConsola() representa la parabola en la consola.
+- GraficarConsola() representa la parábola en la consola.
 
 ## Cambios estructurales de C a C++
 - Paso de funciones a métodos.
@@ -63,18 +63,20 @@ Resultados esperados:
   - Discriminante positivo.
   - Tabla y gráfica deben verse invertidas.
 <img width="1548" height="3236" alt="image" src="https://github.com/user-attachments/assets/4d58c45d-0bf8-45d5-8be9-f22a1c90d60b" />
+
 ### Sin raíces reales
   - Discriminante = -16
   - No existen soluciones reales
   - Vértice = (-1,4)
 <img width="1550" height="3116" alt="image" src="https://github.com/user-attachments/assets/5dfec136-7183-4613-903d-9d0a1be3896f" />
+
 ### a=0
 <img width="1516" height="263" alt="image" src="https://github.com/user-attachments/assets/cb0e6da7-2937-49ad-9c11-decad95816b3" />
 
 
 ## Principales dificultades  
-- Desarrollar una composicion.
-- Graficar una parabola en consola.
+- Desarrollar una composición.
+- Graficar una parábola en consola.
 
 ---
 ## Avance logrado (Hito 1)
@@ -96,7 +98,9 @@ Resultados esperados:
   - Profundizaremos en el carácter pedagógico.
  
 * Avance hacia el **Hito 3**.
-  - Implementacion de grafica de función interactiva con Qt.
+  - Implementación de gráfica de función interactiva con Qt.
+  - Soluciones complejas.
+  - Generar un reporte.
 
 ## Referencias  
 - https://www.mathsisfun.com/algebra/quadratic-equation.html
