@@ -28,7 +28,7 @@ Desarrollar una herramienta computacional educativa que, entregue el análisis c
 
 ## Clases implementadas
 
-**Funcion:**Guarda y expone los coeficientes.
+**Funcion:** Guarda y expone los coeficientes.
 - Su constructor ayuda a asignar los coeficientes a atributos privados.
 - A(), B(), C() nos ayuda a acceder a los datos.
 
@@ -50,6 +50,27 @@ g++ main.cpp funciones.cpp -o proyecto -lm
 ./proyecto
 
 ## Casos de Prueba  
+### Una raíz  
+Resultados esperados:   
+  - Discriminante = 0
+  - x = 2
+  - Vértice = (2,0)
+<img width="1547" height="3242" alt="image" src="https://github.com/user-attachments/assets/bebe5044-b498-4f2e-bfb5-85f0b6981a1d" />
+
+### Parábola invertida
+Resultados esperados:  
+  - Parábola abre hacia abajo.
+  - Discriminante positivo.
+  - Tabla y gráfica deben verse invertidas.
+<img width="1548" height="3236" alt="image" src="https://github.com/user-attachments/assets/4d58c45d-0bf8-45d5-8be9-f22a1c90d60b" />
+### Sin raíces reales
+  - Discriminante = -16
+  - No existen soluciones reales
+  - Vértice = (-1,4)
+<img width="1550" height="3116" alt="image" src="https://github.com/user-attachments/assets/5dfec136-7183-4613-903d-9d0a1be3896f" />
+### a=0
+<img width="1516" height="263" alt="image" src="https://github.com/user-attachments/assets/cb0e6da7-2937-49ad-9c11-decad95816b3" />
+
 
 ## Principales dificultades  
 - Desarrollar una composicion.
