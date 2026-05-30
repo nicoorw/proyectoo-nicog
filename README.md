@@ -89,7 +89,7 @@ Resultados esperados:
 
 ## Avance Hito 2  
 * **Cambio de C a C++**
-* ** **
+* **Grafica en consola**
 
 ## Próximos pasos
 * Avance hacia el **Hito 2**.
