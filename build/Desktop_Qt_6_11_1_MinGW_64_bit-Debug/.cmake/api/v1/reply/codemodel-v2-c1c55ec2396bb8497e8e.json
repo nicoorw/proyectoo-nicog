@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CalculadoraCuadratica",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CalculadoraCuadratica::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CalculadoraCuadratica-Debug-a69da6ee3f09c7c458c0.json",
+					"name" : "CalculadoraCuadratica",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CalculadoraCuadratica_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CalculadoraCuadratica_autogen-Debug-ef3e8d822001327d9102.json",
+					"name" : "CalculadoraCuadratica_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CalculadoraCuadratica_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CalculadoraCuadratica_autogen_timestamp_deps-Debug-e5442af3149028ab5d63.json",
+					"name" : "CalculadoraCuadratica_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

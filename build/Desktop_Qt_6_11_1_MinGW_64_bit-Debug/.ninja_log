@@ -1,0 +1,38 @@
+# ninja log v7
+20	1631	8039592626004193	CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+20	1631	8039592626004193	CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+20	1631	8039592626004193	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+20	1631	8039592626004193	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+1684	3162	8039592628361132	CMakeFiles/CalculadoraCuadratica.dir/src/main.cpp.obj	b801db0b55810c56
+1708	3316	8039592628612379	CMakeFiles/CalculadoraCuadratica.dir/src/funciones.cpp.obj	6679af403ab5be55
+1691	6909	8039592628438521	CMakeFiles/CalculadoraCuadratica.dir/src/mainwindow.cpp.obj	abe2e9477fae7d81
+1675	7537	8039592628262937	CMakeFiles/CalculadoraCuadratica.dir/CalculadoraCuadratica_autogen/mocs_compilation.cpp.obj	244290012d7d9c22
+1699	7631	8039592628511715	CMakeFiles/CalculadoraCuadratica.dir/src/graficawidget.cpp.obj	c76c88fe34dca2f1
+7632	8203	8039592687837404	CalculadoraCuadratica.exe	dec861a97f22a562
+107	1464	8039595730900195	CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+107	1464	8039595730900195	CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+107	1464	8039595730900195	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+107	1464	8039595730900195	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+1490	2716	8039595732957827	CMakeFiles/CalculadoraCuadratica.dir/src/funciones.cpp.obj	6679af403ab5be55
+1473	6629	8039595732789362	CMakeFiles/CalculadoraCuadratica.dir/src/main.cpp.obj	b801db0b55810c56
+1466	6861	8039595732718160	CMakeFiles/CalculadoraCuadratica.dir/CalculadoraCuadratica_autogen/mocs_compilation.cpp.obj	244290012d7d9c22
+1482	6940	8039595732869188	CMakeFiles/CalculadoraCuadratica.dir/src/graficawidget.cpp.obj	c76c88fe34dca2f1
+6941	7432	8039595787465284	CalculadoraCuadratica.exe	dec861a97f22a562
+66	1437	8039597979188728	CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+66	1437	8039597979188728	CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+66	1437	8039597979188728	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+66	1437	8039597979188728	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+63	1512	8039599830801668	CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+63	1512	8039599830801668	CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+63	1512	8039599830801668	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+63	1512	8039599830801668	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+1551	2790	8039599833126742	CMakeFiles/CalculadoraCuadratica.dir/src/funciones.cpp.obj	6679af403ab5be55
+1541	7319	8039599833026944	CMakeFiles/CalculadoraCuadratica.dir/src/graficawidget.cpp.obj	c76c88fe34dca2f1
+1523	8444	8039599832846948	CMakeFiles/CalculadoraCuadratica.dir/src/main.cpp.obj	b801db0b55810c56
+1514	8472	8039599832761144	CMakeFiles/CalculadoraCuadratica.dir/CalculadoraCuadratica_autogen/mocs_compilation.cpp.obj	244290012d7d9c22
+83	462	8039600916509554	CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+83	462	8039600916509554	CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+83	462	8039600916509554	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/timestamp	ac859bf0c994907
+83	462	8039600916509554	C:/Users/PC/Desktop/SEMINARIO DE PROGRA/PROYECTO/proyectoo-nicog/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CalculadoraCuadratica_autogen/mocs_compilation.cpp	ac859bf0c994907
+497	7732	8039600920644512	CMakeFiles/CalculadoraCuadratica.dir/src/mainwindow.cpp.obj	abe2e9477fae7d81
+7733	8426	8039600993002533	CalculadoraCuadratica.exe	dec861a97f22a562
