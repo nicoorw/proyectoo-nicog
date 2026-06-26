@@ -189,8 +189,11 @@ Un QMessageBox indicando que los valores deben ser numéricos.
 * Calcular automáticamente los rangos para la visualización de la parábola.
 
 ## Conclusiones
-
+El proyecto cumplió su objetivo de construir una herramienta pedagógica que hace visible la relación entre los coeficientes algebraicos y el comportamiento gráfico de la función cuadrática. El diseño orientado a objetos, establecido desde el Hito 2, facilitó la integración de la interfaz gráfica en el Hito 3 al tener la lógica matemática encapsulada en Calculadora y Funcion, MainWindow pudo conectarse a ella sin modificar ningún cálculo existente, lo que redujo errores, mantuvo el código organizado y nos enseño la muy buena practica de separar logica de interfaz. Si el proyecto continuara en desarrollo lo que añadiriamos un modo de explicación paso a paso animado para cada cálculo ,ya que es lo más complejo de entender de la función cuadrática.  
 
 ## Referencias
 
-* https://www.mathsisfun.com/algebra/quadratic-equation.html
+* MathIsFun — Quadratic Equation: https://www.mathsisfun.com/algebra/quadratic-equation.html
+* Qt Documentation — Qt Widgets: https://doc.qt.io/qt-6/qtwidgets-index.html
+* Qt Documentation — Signals & Slots: https://doc.qt.io/qt-6/signalsandslots.html
+* Qt Documentation — QPainter: https://doc.qt.io/qt-6/qpainter.html
