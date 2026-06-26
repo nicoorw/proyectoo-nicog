@@ -3,9 +3,11 @@
 ## Herramientas Utilizadas
 
 | Herramienta | Uso |
-| Chat GPT | Correccion del codigo, verificacion de casos y consultas tecnicas|
+|---|---|
+| Chat GPT | Correccion del codigo, verificacion de casos y consultas tecnicas. |
 | Claude | Identificar, localizar y solucionar errores en el código. |  
 | Gemini | Explicaciones matematicas. |  
+---
 ## Prompts ChatGPT
 > - "Revision del codigo, ver si faltan algun ; , algun parentesis o llave en C++."
 > - "Solucion de errores de compilacion por las librerias usadas."
