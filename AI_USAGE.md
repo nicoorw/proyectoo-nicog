@@ -12,6 +12,12 @@
 > - "Ayudar a explicar el entendimiento del codigo, errores de tipeo y recordar algunos conceptos como el while, do y el como se redondea una cifra a ciertos decimales."
 > - "Proporcionar opciones para futuro de un fronted, html, qt, java, etc, y tambien ideas para graficar en consola."
 ## Prompts Claude  
+> - "Explicacion paso a paso para pasar el codigo de c++ sin errores hacia qt"
+> - "Ayuda con la sintaxis y distribucion de los archivos en qt"
+> - "Instalacion de qt"
+> - "Ayuda con subir los archivos a github sin que se agreguen las carpetas de ejecucion de qt(.gitignore)"
+> - "Correccion de errores"
+> - "Correr casos de prueba"
 ## Prompts Gemini
 > - "Cómo calcular el vértice de una parábola en C."
 > - "Por qué mi cálculo de sqrt da error de compilación en C."
